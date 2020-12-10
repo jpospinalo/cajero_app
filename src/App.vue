@@ -24,10 +24,9 @@
 
 <!-- Representa el js (Comportamiento) -->
 <script>
-import FirstCompoent from './components/FirstCompoent.vue'
   export default {
     name: 'App',
-    components: {FirstCompoent},
+    components: {},
     data: function(){
       return {
         is_auth: localStorage.getItem('isAuth') || false
